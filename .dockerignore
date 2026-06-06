@@ -1,0 +1,22 @@
+# Ignorer les environnements virtuels locaux
+env/
+.venv/
+.env/
+venv/
+
+# Ignorer la base de données locale et les fichiers téléchargés (Docker créera les siens)
+db/
+uploaded_files/
+
+# Ignorer les fichiers de configuration Git et IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Ignorer les caches Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
